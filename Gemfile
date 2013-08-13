@@ -5,8 +5,6 @@ gem 'rails', '4.0.0'
 
 gem 'devise'
 
-gem 'protected_attributes'
-
 # Use jdbcsqlite3 as the database for Active Record
 gem 'activerecord-jdbcsqlite3-adapter'
 

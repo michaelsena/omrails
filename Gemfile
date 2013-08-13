@@ -6,6 +6,8 @@ gem 'rails', '4.0.0'
 # Use jdbcsqlite3 as the database for Active Record
 gem 'activerecord-jdbcsqlite3-adapter'
 
+gem 'bootstrap-sass', '~> 2.1.1.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -30,6 +32,7 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+
 end
 
 # Use ActiveModel has_secure_password
